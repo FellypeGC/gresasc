@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  width: 100%;
+  padding: 0.5rem;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  max-width: 1700px;
+  margin: 0 auto;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+
+.logo {
+  width: 100px;
+  height: 100px;
+  left: -10px;
+}
+
+section ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+ul li {
+  padding: 1rem;
+  list-style: none;
+  text-decoration: none;
+}
+
+li a {
+  text-decoration: none;
+  color: #008025;
+  font-weight: bolder;
+}
+
+.meiaquatro-anos-de-historia {
+  text-align: center;
+  width: 1200px;
+  height: 362px;
+  border-radius: 6px;
+  border: 2px solid #008025;
+}
+
+main {
+  padding: .5rem;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  justify-content: center;
+}
+
+article {
+  text-align: center;
+  line-height: 1.5rem;
+}
+
+h1 {
+  padding: 1.5rem 0 0 2rem;
+  margin-top: 2rem;
+}
+
+p {
+  padding: 1rem;
+  text-align: left;
+  width: 1200px;
+  text-justify: distribute-all-lines;
+}
+
+.bg-green {
+  background-color: #008025;
+  color: #fff;
+  border-radius: 6px;
+}
+
+table {
+  width: calc(1200px - 2rem);
+  border-collapse: collapse;
+  padding: 2rem;
+  margin: 1rem;
+  border-radius: 6px;
+}
+
+th {
+  background-color: #008025;
+  color: #fff;
+  text-align: left;
+  padding: 3px 5px;
+}
+
+td {
+  border: 1px solid #008025;
+  padding: 6px;
+  line-height: 18px;
+  text-align: left;
+}
+
